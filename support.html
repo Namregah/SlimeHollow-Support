@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Support and help for the SlimeHollow app.">
+  <title>SlimeHollow Support</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #0e1722;
+      --surface: #171e2a;
+      --surface-light: #1d2634;
+      --border: #313c4d;
+      --text: #f5f7fa;
+      --muted: #b9c1cc;
+      --mint: #b8f7e4;
+      --purple: #a78bfa;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top, #25213d 0, var(--background) 42%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(850px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 64px 0;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .goo {
+      width: 82px;
+      height: 68px;
+      margin: 0 auto 18px;
+      background: #a8ef79;
+      border: 5px solid #456a36;
+      border-radius: 50% 50% 42% 42%;
+      position: relative;
+    }
+
+    .goo::before,
+    .goo::after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      width: 9px;
+      height: 14px;
+      background: #101722;
+      border-radius: 50%;
+    }
+
+    .goo::before {
+      left: 21px;
+    }
+
+    .goo::after {
+      right: 21px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--mint);
+      font-size: clamp(2rem, 6vw, 3.25rem);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 8px auto 0;
+      max-width: 640px;
+    }
+
+    section {
+      background: rgba(23, 30, 42, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: clamp(24px, 5vw, 42px);
+      margin-bottom: 22px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      color: var(--purple);
+      margin-top: 0;
+    }
+
+    h3 {
+      color: var(--mint);
+      margin-bottom: 6px;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    .contact-button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 13px 20px;
+      border-radius: 999px;
+      background: var(--purple);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .contact-button:hover,
+    .contact-button:focus {
+      background: #b9a5ff;
+      color: #101722;
+    }
+
+    .faq {
+      background: var(--surface-light);
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      padding: 18px 20px;
+      margin-top: 14px;
+    }
+
+    .faq h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: var(--mint);
+    }
+
+    footer {
+      color: var(--muted);
+      text-align: center;
+      padding-top: 12px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="goo" aria-hidden="true"></div>
+      <h1>SlimeHollow Support</h1>
+      <p class="subtitle">
+        Help with Goo, Portal Hollow, Slime Codes, visitors, and your growing world.
+      </p>
+    </header>
+
+    <section>
+      <h2>Contact WispHollow</h2>
+      <p>
+        If you need help with SlimeHollow, have found a problem, or want to
+        provide feedback, email:
+      </p>
+
+      <p>
+        <strong>
+          <a href="mailto:wisphollow@gmail.com">wisphollow@gmail.com</a>
+        </strong>
+      </p>
+
+      <p>
+        When reporting a problem, please include your device model, iOS version,
+        SlimeHollow version, and a short description of what happened. Please
+        do not send passwords, payment details, or other sensitive information.
+      </p>
+
+      <a
+        class="contact-button"
+        href="mailto:wisphollow@gmail.com?subject=SlimeHollow%20Support"
+      >
+        Email SlimeHollow Support
+      </a>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq">
+        <h3>Does SlimeHollow require an account?</h3>
+        <p>
+          No. SlimeHollow does not require an account or sign-in. Your slime,
+          world progress, memories, discoveries, and settings are stored locally
+          on your device.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3>How do Slime Codes work?</h3>
+        <p>
+          Open the Visitors screen and select Copy Slime Code to create a
+          text-based profile for your slime. Send that code to a friend using
+          another messaging service. Your friend can paste it into their
+          Visitors screen to add your slime as a recurring visitor.
+        </p>
+        <p>
+          Slime Codes do not contain your journal, memories, discoveries, or
+          world progress.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3>Why has a linked slime not visited yet?</h3>
+        <p>
+          Visitors normally arrive over time through Portal Hollow. You can tap
+          a visitor card and choose Call for a Visit if you want that slime to
+          arrive sooner.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3>Can I stop a particular slime from visiting?</h3>
+        <p>
+          Yes. Tap that slime's visitor card and choose Mute Visits. The slime
+          remains linked and keeps its friendship history, but it will not be
+          selected for automatic visits. You can unmute it later.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3>How do I ask a visiting slime to leave?</h3>
+        <p>
+          Open the Visitors screen, tap the current visitor, and choose Send
+          Home. The visitor will travel back to Portal Hollow and leave through
+          the portal normally.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3>Will deleting SlimeHollow erase my progress?</h3>
+        <p>
+          SlimeHollow stores its information locally. Deleting the app or using
+          its reset option may permanently remove your slime and world progress.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3>Will I be charged again if I reinstall the app?</h3>
+        <p>
+          App Store purchases are associated with the Apple Account used to buy
+          the app. Apple generally allows previously purchased apps to be
+          downloaded again without another charge, subject to App Store
+          availability and Apple Account access.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3>What should I try if SlimeHollow is not working correctly?</h3>
+        <p>
+          Close and reopen the app, confirm that your device is running a
+          supported iOS version, and check the App Store for a SlimeHollow
+          update. If the issue continues, email WispHollow with the details.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p>
+        SlimeHollow does not collect personal data, use advertising networks,
+        or include behavioral analytics.
+      </p>
+
+      <p>
+        Read the complete
+        <a href="privacy.html">SlimeHollow Privacy Policy</a>.
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2026 WispHollow. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
